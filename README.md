@@ -1,9 +1,9 @@
-![img](images/image.com)
-Freakky is a simple terminal written in C++ that I created for myself.
+![img](images/img.png)
+<br>Freakky is a simple terminal written in C++ that I created for myself.
 
 ### requirements
-1. gtkmm
-2. vte
+<br>1. gtkmm
+<br>2. vte
 
 ### installation 
 ## 1. clone the repository
