@@ -3,7 +3,7 @@
 
 ### requirements
 1. gtkmm
-<br>2. vte
+<br>2.vte
 
 ### installation 
 ## 1. clone the repository
