@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
     window.set_default_size(900,500);
     
     GtkWidget *vte_widget = vte_terminal_new();
-    VteTerminal *vte = VTE_TERMINAL(vte_widget);  // Приведение типа через макрос
+    VteTerminal *vte = VTE_TERMINAL(vte_widget);
     Gtk::Widget *terminal = Glib::wrap(vte_widget);
     
 
