@@ -16,8 +16,8 @@ g++ freakky.cpp -o freakky $(pkg-config --cflags --libs gtkmm-3.0 vte-2.91)
 ~~~
 ## 3. add to PATH
 ~~~
-<br>mkdir -p ~/bin
-<br>cp freakky ~/bin/
-<br>echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
-<br>source ~/.bashrc
+mkdir -p ~/bin
+cp freakky ~/bin/
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 ~~~
