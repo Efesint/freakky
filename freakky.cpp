@@ -1,5 +1,4 @@
 // g++ freakky.cpp -o freakky $(pkg-config --cflags --libs gtkmm-3.0 vte-2.91)
-
 #include <gtkmm.h>
 #include <vte/vte.h>
 
@@ -14,7 +13,8 @@ int main(int argc, char *argv[]) {
     VteTerminal *vte = VTE_TERMINAL(vte_widget);
     Gtk::Widget *terminal = Glib::wrap(vte_widget);
     
-
+// idk what am i writing rn
+    
     char *shell_argv[2] = {const_cast<char*>("/bin/bash"), nullptr};
     vte_terminal_spawn_async(vte, VTE_PTY_DEFAULT, nullptr,
                               shell_argv, nullptr,
