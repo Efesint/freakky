@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     VteTerminal *vte = VTE_TERMINAL(vte_widget);
     Gtk::Widget *terminal = Glib::wrap(vte_widget);
     
-// idk what am i writing rn
+
     
     char *shell_argv[2] = {const_cast<char*>("/bin/bash"), nullptr};
     vte_terminal_spawn_async(vte, VTE_PTY_DEFAULT, nullptr,
